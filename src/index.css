@@ -179,6 +179,15 @@ body {
   padding: 40px 64px;
 }
 
+.pp-footer-inner {
+  width: 100%;
+  max-width: 980px;
+  border-top: 1px solid var(--rule);
+  padding-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 800px) {
   .pp-header-inner,
@@ -186,6 +195,10 @@ body {
   .pp-footer {
     padding-left: 24px;
     padding-right: 24px;
+  }
+
+  .pp-hero {
+    margin-bottom: 0px;
   }
 
   .pp-layout {

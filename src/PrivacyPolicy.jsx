@@ -179,11 +179,14 @@ export default function PrivacyPolicy() {
               </a>
             </p>
           </article>
+          
         </div>
       </main>
 
       <footer className="pp-footer">
-        <Logo />
+        <div className="pp-footer-inner">
+          <Logo />
+        </div>
       </footer>
     </div>
   );

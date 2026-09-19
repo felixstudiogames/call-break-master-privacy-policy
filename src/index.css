@@ -163,6 +163,15 @@ body {
   font-weight: 700;
 }
 
+/* .pp-layout a {
+  color: var(--orange);
+  text-decoration: none;
+}
+
+.pp-layout a:hover {
+  text-decoration: underline;
+} */
+
 .pp-content a {
   color: var(--orange);
   text-decoration: none;

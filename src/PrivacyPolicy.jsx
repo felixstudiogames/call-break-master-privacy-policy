@@ -13,11 +13,13 @@ function Logo({ className }) {
 }
 
 export default function PrivacyPolicy() {
+  const webLink = "https://felixstudiogames.github.io/felix-studio-games-web/";
+
   return (
     <div className="pp-page">
       <header className="pp-header">
         <div className="pp-header-inner">
-          <Logo />
+          <a href={webLink}><Logo /></a>
         </div>
       </header>
 
@@ -185,7 +187,7 @@ export default function PrivacyPolicy() {
 
       <footer className="pp-footer">
         <div className="pp-footer-inner">
-          <Logo />
+          <a href="#"><Logo /></a>
         </div>
       </footer>
     </div>

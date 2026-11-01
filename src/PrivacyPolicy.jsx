@@ -42,6 +42,10 @@ export default function PrivacyPolicy() {
               <p className="pp-meta-value">5th May, 2026</p>
             </div>
             <div className="pp-meta-block">
+              <p className="pp-meta-label">Last Updated:</p>
+              <p className="pp-meta-value">31st October, 2026</p>
+            </div>
+            <div className="pp-meta-block">
               <p className="pp-meta-label">Developer:</p>
               <p className="pp-meta-value">Felix Studio Games</p>
             </div>
